@@ -853,3 +853,149 @@ a {
 
 
 }
+
+
+/* ===== ReadHouse Library ===== */
+
+.library-page {
+    padding: 36px 40px;
+    min-height: 100vh;
+}
+
+.library-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+    .library-header h1 {
+        font-size: 38px;
+        font-weight: 700;
+        color: #24243f;
+        margin-bottom: 8px;
+    }
+
+    .library-header p {
+        color: #777991;
+        font-size: 15px;
+    }
+
+.library-search {
+    margin-bottom: 30px;
+    max-width: 650px;
+}
+
+    .library-search form {
+        display: flex;
+        gap: 10px;
+    }
+
+    .library-search input {
+        flex: 1;
+        min-width: 0;
+        padding: 14px 18px;
+        border: 1px solid #e5e3f2;
+        border-radius: 12px;
+        background: #fff;
+        font-size: 14px;
+        outline: none;
+    }
+
+        .library-search input:focus {
+            border-color: #8065f6;
+            box-shadow: 0 0 0 3px rgba(128, 101, 246, 0.12);
+        }
+
+    .library-search button {
+        padding: 12px 22px;
+        border: none;
+        border-radius: 12px;
+        background: #8065f6;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+        .library-search button:hover {
+            background: #6c50e8;
+        }
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 24px;
+}
+
+.book-card {
+    overflow: hidden;
+    background: white;
+    border: 1px solid #eeecf6;
+    border-radius: 18px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+    .book-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 28px rgba(50, 40, 100, 0.10);
+    }
+
+.book-cover {
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #eee8ff, #dcd2ff);
+}
+
+    .book-cover span {
+        font-size: 48px;
+    }
+
+.book-info {
+    padding: 18px;
+}
+
+    .book-info h3 {
+        font-size: 17px;
+        line-height: 1.4;
+        color: #292944;
+        margin-bottom: 8px;
+    }
+
+    .book-info p {
+        color: #777991;
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+.book-language {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background: #f0edff;
+    color: #7257e8;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+@media (max-width: 700px) {
+    .library-page {
+        padding: 24px 18px;
+    }
+
+    .library-header h1 {
+        font-size: 30px;
+    }
+
+    .book-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+    }
+
+    .book-cover {
+        height: 160px;
+    }
+
+}
+

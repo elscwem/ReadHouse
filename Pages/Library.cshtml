@@ -1,4 +1,52 @@
 ﻿@page
 @model ReadHouse.Pages.LibraryModel
+
 @{
+    ViewData["Title"] = "Knihovna";
 }
+
+<div class="library-page">
+    <div class="library-header">
+        <div>
+            <h1>Moje knihovna</h1>
+            <p>Objevuj nové příběhy a uč se anglicky čtením.</p>
+        </div>
+    </div>
+
+    <div class="library-search">
+        <form method="get">
+            <input type="text"
+                   name="SearchTerm"
+                   value="@Model.SearchTerm"
+                   placeholder="Hledat knihu podle názvu nebo autora..."
+                   aria-label="Hledat knihu" />
+
+            <button type="submit">Hledat</button>
+        </form>
+    </div>
+
+    <div class="book-grid">
+        @if (Model.Books.Any())
+        {
+            @foreach (var book in Model.Books)
+            {
+                <div class="book-card">
+                    <div class="book-cover">
+                        <span>📖</span>
+                    </div>
+
+                    <div class="book-info">
+                        <h3>@book.Title</h3>
+                        <p>@book.Author</p>
+                        <span class="book-language">@book.Language</span>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Žádné knihy nebyly nalezeny.</p>
+        }
+    </div>
+
+</div>

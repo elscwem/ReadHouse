@@ -21,7 +21,6 @@ C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\rjsmcshtm
 C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\scopedcss\bundle\ReadHouse.styles.css
 C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\scopedcss\projectbundle\ReadHouse.bundle.scp.css
-C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\compressed\cuwg1quvpd-{0}-3u2txe9ek0-3u2txe9ek0.gz
 C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\compressed\xlsv9jnfiq-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\compressed\4c8ko04d91-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\compressed\ki5jpcd2z2-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -96,3 +95,5 @@ C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\refint\Re
 C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\ReadHouse.pdb
 C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\ReadHouse.genruntimeconfig.cache
 C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\ref\ReadHouse.dll
+C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\ReadHouse.sourcelink.json
+C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\compressed\cuwg1quvpd-{0}-nmz6q0lmai-nmz6q0lmai.gz
