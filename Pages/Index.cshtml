@@ -1,0 +1,125 @@
+﻿@page
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Domů";
+}
+
+<section class="welcome-section">
+    <div>
+        <div class="welcome-label">
+            <span class="welcome-dot"></span>
+            TVŮJ PROSTOR PRO ANGLIČTINU
+        </div>
+
+ 
+        <h1>Ahoj, vítej v <span>ReadHouse.</span></h1>
+
+        <p class="welcome-description">
+            Každá přečtená stránka tě posune blíž k plynulé angličtině.
+            Vyber si knihu a začni objevovat nová slova.
+        </p>
+
+        <div class="welcome-actions">
+            <a asp-page="/Library" class="primary-button">
+                Prozkoumat knihovnu <span>→</span>
+            </a>
+
+            <a asp-page="/Practice" class="secondary-button">
+                Procvičit slovíčka
+            </a>
+        </div>
+    </div>
+
+    <div class="welcome-illustration">
+        <div class="illustration-circle"></div>
+        <div class="illustration-book">
+            <div class="book-symbol">R</div>
+            <div class="book-title">YOUR NEXT<br />CHAPTER</div>
+            <div class="book-line"></div>
+            <div class="book-subtitle">Read. Learn. Grow.</div>
+        </div>
+        <div class="floating-word word-one">discover</div>
+        <div class="floating-word word-two">dream</div>
+        <div class="floating-star">✦</div>
+    </div>
+ 
+
+</section>
+
+<section class="stats-grid">
+    <article class="stat-card">
+        <div class="stat-icon purple-icon">▤</div>
+        <div>
+            <p>Moje knihy</p>
+            <h2>0 <span>knih</span></h2>
+            <small>Tvá osobní knihovna</small>
+        </div>
+    </article>
+
+ 
+    <article class="stat-card">
+        <div class="stat-icon peach-icon">✎</div>
+        <div>
+            <p>Slovíčka ve slovníku</p>
+            <h2>0 <span>slov</span></h2>
+            <small>Nová slovíčka na jednom místě</small>
+        </div>
+    </article>
+
+    <article class="stat-card">
+        <div class="stat-icon green-icon">✦</div>
+        <div>
+            <p>Tvůj cíl</p>
+            <h2>15 <span>min / den</span></h2>
+            <small>Malé kroky přinášejí výsledky</small>
+        </div>
+    </article>
+
+
+</section>
+
+<section class="home-section">
+    <div class="section-heading">
+        <div>
+            <span class="section-eyebrow">POKRAČUJ VE SVÉ CESTĚ</span>
+            <h2>Co dnes objevíš?</h2>
+            <p>Vyber si, čemu chceš věnovat chvíli svého času.</p>
+        </div>
+    </div>
+
+
+    <div class="feature-grid">
+        <a asp-page="/Library" class="feature-card">
+            <div class="feature-icon feature-purple">📚</div>
+            <h3>Moje knihovna</h3>
+            <p>Najdi si anglickou knihu podle svého vkusu a úrovně.</p>
+            <span class="feature-link">Přejít do knihovny →</span>
+        </a>
+
+        <a asp-page="/Dictionary" class="feature-card">
+            <div class="feature-icon feature-pink">📖</div>
+            <h3>Můj slovník</h3>
+            <p>Ukládej si nová anglická slovíčka a jejich překlady.</p>
+            <span class="feature-link">Otevřít slovník →</span>
+        </a>
+
+        <a asp-page="/Practice" class="feature-card">
+            <div class="feature-icon feature-green">✦</div>
+            <h3>Procvičování</h3>
+            <p>Opakuj slovíčka a postupně si je zapamatuj.</p>
+            <span class="feature-link">Začít procvičovat →</span>
+        </a>
+    </div>
+
+
+</section>
+
+<section class="quote-banner">
+    <div class="quote-mark">“</div>
+    <div>
+        <p>One more page. One more word. One step closer.</p>
+        <span>Je čas začít svou další kapitolu.</span>
+    </div>
+    <div class="quote-decoration">✦</div>
+</section>

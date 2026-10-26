@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+
+<html lang="cs">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ReadHouse</title>
+
+    ```
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ReadHouse.styles.css" asp-append-version="true" />
+
+</head>
+
+<body>
+    <div class="app-layout">
+        <aside class="sidebar">
+            <a class="brand" asp-page="/Index">
+                <span class="brand-icon">R</span>
+                <span>ReadHouse</span>
+            </a>
+
+            <div class="sidebar-label">HLAVNÍ MENU</div>
+
+            <nav class="side-nav">
+                <a class="side-link" asp-page="/Index">
+                    <span>⌂</span> Domů
+                </a>
+
+                <a class="side-link" asp-page="/Library">
+                    <span>▤</span> Knihovna
+                </a>
+
+                <a class="side-link" asp-page="/Dictionary">
+                    <span>📖</span> Můj slovník
+                </a>
+
+                <a class="side-link" asp-page="/Practice">
+                    <span>✦</span> Procvičování
+                </a>
+
+                <a class="side-link" asp-page="/Profile">
+                    <span>◉</span> Profil
+                </a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <div class="learning-card">
+                    <div class="learning-icon">✦</div>
+                    <strong>Každý den o trochu dál.</strong>
+                    <p>Čti anglicky. Objevuj nová slova. Uč se vlastním tempem.</p>
+                </div>
+                <span class="sidebar-version">READHOUSE · ENGLISH READER</span>
+            </div>
+        </aside>
+
+        <div class="main-area">
+            <header class="topbar">
+                <div class="mobile-brand">
+                    <span class="brand-icon">R</span>
+                    <strong>ReadHouse</strong>
+                </div>
+
+                <form class="top-search" method="get" asp-page="/Library">
+                    <span>⌕</span>
+                    <input type="search" name="Search"
+                           placeholder="Hledat knihy, autory..." />
+                    <button type="submit">Hledat</button>
+                </form>
+
+                <a class="profile-shortcut" asp-page="/Profile">
+                    <span class="profile-avatar">R</span>
+                    <span class="profile-shortcut-text">
+                        <strong>Můj profil</strong>
+                        <small>Čtenář</small>
+                    </span>
+                </a>
+            </header>
+
+            <main class="page-content">
+                @RenderBody()
+            </main>
+
+            <footer class="app-footer">
+                <span>© 2026 ReadHouse</span>
+                <span>Read · Learn · Grow</span>
+            </footer>
+        </div>
+    </div>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    ```
+
+</body>
+</html>
