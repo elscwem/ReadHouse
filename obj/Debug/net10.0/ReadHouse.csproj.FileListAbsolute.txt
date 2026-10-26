@@ -97,3 +97,6 @@ C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\ReadHouse
 C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\ref\ReadHouse.dll
 C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\ReadHouse.sourcelink.json
 C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\compressed\cuwg1quvpd-{0}-nmz6q0lmai-nmz6q0lmai.gz
+C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\bin\Debug\net10.0\MySqlConnector.dll
+C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\ReadHouse.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\repos\ReadHouse\ReadHouse\obj\Debug\net10.0\ReadHouse.csproj.Up2Date

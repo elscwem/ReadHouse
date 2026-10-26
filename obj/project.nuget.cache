@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0LK6iBzIJfc=",
+  "dgSpecHash": "eS81ya05Kj0=",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\repos\\ReadHouse\\ReadHouse\\ReadHouse.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\mysqlconnector\\2.6.2\\mysqlconnector.2.6.2.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,8 +1,23 @@
+using MySqlConnector;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+try
+{
+    await using var connection = new MySqlConnection(connectionString);
+    await connection.OpenAsync();
+
+    Console.WriteLine("Připojení k databázi ReadHouse bylo úspěšné!");
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Chyba připojení k databázi: {ex.Message}");
+}
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

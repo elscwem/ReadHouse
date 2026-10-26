@@ -16,7 +16,7 @@ namespace ReadHouse.Pages
         {
             new Book { Title = "Harry Potter and the Philosopher's Stone", Author = "J. K. Rowling", Language = "English" },
             new Book { Title = "The Little Prince", Author = "Antoine de Saint-Exupéry", Language = "English" },
-            new Book { Title = "1984", Author = "George Orwell", Language = "English" },
+            new Book { Title = "Animal Farm", Author = "George Orwell", Language = "English" },
             new Book { Title = "Pride and Prejudice", Author = "Jane Austen", Language = "English" },
             new Book { Title = "Alice's Adventures in Wonderland", Author = "Lewis Carroll", Language = "English" }
         };
@@ -42,6 +42,5 @@ namespace ReadHouse.Pages
             public string Language { get; set; } = string.Empty;
         }
     }
-
 
 }
